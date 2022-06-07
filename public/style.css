@@ -1,0 +1,56 @@
+body{
+  padding-top:80px;
+  word-wrap:break-word;
+  background-color: rgb(75, 83, 32, 0.3);
+}
+#welcomePage{
+  margin-top: 200px;
+  border: 2px solid peru;
+}
+.btn, button{
+  background-color: bisque;
+  color: peru;
+  /* font-size: 2rem; */
+  margin: 10px;
+}
+p, label, span{
+  font-size: 2rem;
+}
+form-group{
+  font-size:2.5rem;
+}
+#loginPage, #signUpPage{
+  color:peru;
+  border:6px solid peru;
+  background-color: white;
+  padding: 50px;
+  margin-top: 200px;
+}
+.container {
+  margin-bottom: 200px;
+  /* color: bisque; */
+  color: white;
+}
+input{
+  margin: 10px;
+}
+
+#profilePage{
+  background-color: rgb(75, 83, 32, 0.5);
+  color: rgb(27, 27, 27);
+}
+#profilePage h1{
+  color: white;
+  font-size: 7rem;
+}
+.highlightWhite{
+  /* color:white; */
+  color:bisque;
+}
+ul{
+  list-style-type: none;
+}
+.flowerImg {
+  width: 100px;
+  height: 100px;
+}
