@@ -11,7 +11,8 @@ I build plant lovers united forum using express framework. Using passport connec
 I further optimized the forum by adding a plant lookup API that displays an image and a description of the plant looked up if it's in the database. If the plant is not identifiable (not in the database) it will return flower not detected and direct the user to the option of adding the flower to a [mongo] database adding a name, photo, and descripition.  -->
 
 ## Lessons Learned:
-I learned how to hard code information using an object in the post section of my routes whilst connecting to my ejs file. 
+- The importance of being aware of the IP and whitelist for a variety of location access. The power of "save" vs "insertOne" when working with database arrays. In making this change I was able to correct a deprecation error. Using mongoose.set outside of the function to address adding the most updated UrlParser and unifiedTopology to correct deprecation errors surrounding the usage of the application on various versions.
+-  I usefulness of hard coding information using an object in the post section of my routes whilst connecting to my ejs file. 
 
 ![Screen Shot 2022-06-07 at 4 03 42 PM](https://user-images.githubusercontent.com/22268455/172472212-fbbde60c-bf7f-4094-acd9-4089d6b01127.png)
 
