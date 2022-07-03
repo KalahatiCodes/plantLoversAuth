@@ -1,4 +1,4 @@
-module.exports = function(app, passport, db) {
+module.exports = function(app, passport, db, MongoClient) {
 
       app.get('/', function(req, res) {
           res.render('index.ejs');
@@ -37,10 +37,11 @@ module.exports = function(app, passport, db) {
           res.redirect('/profile')
         })
       })
-  
+
+
       app.post('/add2Cart', (req, res) => { 
         console.log(req.body)
-        db.collection('flowerCart')
+        db.collection('users')
         .insertOne({plant: req.body.plant, price: req.body.price},
          (err, result) => {
           if (err) return res.send(err)
